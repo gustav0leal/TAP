@@ -22,7 +22,6 @@ vector<int> kmp(string s)
 int main()
 {
     string s, t;
-    kmp(s);
     cin >> t >> s;
     auto p = kmp(t + "#" + s);
     int rs = 0;
